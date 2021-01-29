@@ -13,7 +13,7 @@ The code is a simple R function taking into input the matrix containing the obse
 
 ## How to improve
 
-Each time the function is called, some function are loaded in memory. Loading thoses function outside the main "ACLIME" function  would enhanced performance.
+Each time the function is called, some functions are loaded in memory. Loading thoses functions outside the main "ACLIME" function  would enhanced performance.
 
 Improve efficiency in computation.
 
