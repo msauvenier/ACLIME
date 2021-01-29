@@ -1,7 +1,7 @@
 # ACLIME
 
 ## Introduction
-This code is an implementation on R of the ACLIME-ADMM estimator.
+This code is an implementation in R of the ACLIME-ADMM estimator.
 
 The ACLIME estimator has been introduced in [[1](https://projecteuclid.org/euclid.aos/1458245724)] to estimate sparse precision matrix (sparse inverse of covariance matrix).
 
