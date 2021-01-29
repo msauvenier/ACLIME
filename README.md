@@ -11,6 +11,12 @@ The ADMM program implemented in the code has been derived in [[2](https://arxiv.
 
 The code is a simple R function taking into input the matrix containing the observations of the variables whoses precision matrix needs to be computed and gives as output the estimated precision matrix. The parameters rho and delta are needed for the ADMM program, see [2] for details.
 
+## How to improve
+
+Each time the function is called, some function are loaded in memory. Loading thoses function outside the main "ACLIME" function  would enhanced performance.
+
+Improve efficiency in computation.
+
 ### References
 [[1](https://projecteuclid.org/euclid.aos/1458245724)] Cai, T. Tony; Liu, Weidong; Zhou, Harrison H. Estimating sparse precision matrix: Optimal rates of convergence and adaptive estimation. Ann. Statist. 44 (2016), no. 2, 455--488. doi:10.1214/13-AOS1171. 
 
